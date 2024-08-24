@@ -1,0 +1,29 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.container {
+	box-sizing: border-box;
+	margin: auto;
+	padding: 12px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	gap: 12px;
+	justify-content: space-around;
+}
+
+.section {
+	flex: 1;
+	padding: 12px;
+	border: 1px solid grey;
+	border-radius: 8px;
+	font-size: xxx-large;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
